@@ -61,5 +61,20 @@ export const Spacing = {
   six: 64,
 } as const;
 
+export const Palette = {
+  primary: '#2B5F63',
+  onPrimary: '#FFFFFF',
+  accent: '#F4A259',
+  background: '#FFF3E6',
+  surface: '#FFFFFF',
+  text: '#1E1E1E',
+  textSecondary: '#60646C',
+  border: '#E6D8C8',
+  danger: '#C0392B',
+} as const;
+
+export const Radius = { card: 12, pill: 999 } as const;
+export const MaxFormWidth = 400;
+export const MaxListWidth = 560;
 export const BottomTabInset = Platform.select({ ios: 50, android: 80 }) ?? 0;
 export const MaxContentWidth = 800;
